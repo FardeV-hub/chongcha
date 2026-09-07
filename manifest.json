@@ -1,0 +1,44 @@
+{
+    "name": "ชงชา — Chongcha Restaurant",
+    "short_name": "ชงชา",
+    "description": "แอปร้านอาหารและเครื่องดื่ม ชงชา — สั่งอาหาร สะสมแต้ม แลกรางวัล",
+    "start_url": "./Chongcha.html",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#2d5016",
+    "theme_color": "#2d5016",
+    "lang": "th",
+    "dir": "ltr",
+    "categories": ["food", "shopping", "lifestyle"],
+    "icons": [
+        {
+            "src": "images/icon-512.jpg",
+            "sizes": "512x512",
+            "type": "image/jpeg",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "images/krapao.jpg",
+            "sizes": "1024x1024",
+            "type": "image/jpeg",
+            "label": "เมนูข้าวผัดกระเพรา"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "ดูเมนู",
+            "short_name": "เมนู",
+            "url": "./Chongcha.html#menu",
+            "icons": [{"src": "images/icon-512.jpg", "sizes": "512x512"}]
+        },
+        {
+            "name": "โปรโมชั่น",
+            "short_name": "โปร",
+            "url": "./Chongcha.html#promos",
+            "icons": [{"src": "images/icon-512.jpg", "sizes": "512x512"}]
+        }
+    ]
+}

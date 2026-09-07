@@ -1,0 +1,45 @@
+{
+    "packageId": "com.chongcha.app",
+    "host": "www.chongcha.com",
+    "name": "ชงชา — Chongcha",
+    "launcherName": "ชงชา",
+    "display": "standalone",
+    "themeColor": "#2d5016",
+    "navigationColor": "#1a3009",
+    "navigationColorDark": "#1a3009",
+    "navigationDividerColor": "#1a3009",
+    "navigationDividerColorDark": "#1a3009",
+    "backgroundColor": "#2d5016",
+    "enableNotifications": true,
+    "startUrl": "/",
+    "iconUrl": "https://www.chongcha.com/images/icon-512.jpg",
+    "maskableIconUrl": "https://www.chongcha.com/images/icon-512.jpg",
+    "shortcuts": [
+        {
+            "name": "ดูเมนู",
+            "short_name": "เมนู",
+            "url": "/#menu",
+            "chosenIconUrl": "https://www.chongcha.com/images/icon-512.jpg"
+        },
+        {
+            "name": "โปรโมชั่น",
+            "short_name": "โปร",
+            "url": "/#promos",
+            "chosenIconUrl": "https://www.chongcha.com/images/icon-512.jpg"
+        }
+    ],
+    "signing": {
+        "keyPath": "android.keystore",
+        "alias": "chongcha"
+    },
+    "appVersionName": "1.0.0",
+    "appVersionCode": 1,
+    "signingMode": "new",
+    "isChromeOSOnly": false,
+    "isMetaQuest": false,
+    "fallbackType": "customtabs",
+    "enableSiteSettingsShortcut": true,
+    "minSdkVersion": 19,
+    "orientation": "portrait",
+    "fingerprints": []
+}
